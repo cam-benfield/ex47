@@ -6,7 +6,7 @@ class Room(object):
         self.paths = {}
 
     def go(self, direction):
-        return self.paths.get(direction, none)
+        return self.paths.get(direction, None)
 
-    def add_paths(self, newpath):
-        self.paths.update(newpath)
+    def add_paths(self, paths):
+        self.paths.update(paths)
